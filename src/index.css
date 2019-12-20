@@ -37,6 +37,26 @@ main {
 header h1 {
   text-align: center;
 }
+.card-list {
+  font-family: "Source Sans Pro", sans-serif;
+  background: #fff;
+  color: #263650;
+  display: flex;
+  padding: 10px;
+  min-height: 350px;
+  border-radius: 4px;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: auto;
+  grid-gap: 20px;
+  grid-auto-flow: row;
+  justify-content: center;
+  align-items: start;
+  margin: 0 2rem;
+}
 .nav-links {
   display: flex;
   justify-content: space-evenly;
