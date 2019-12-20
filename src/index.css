@@ -37,3 +37,19 @@ main {
 header h1 {
   text-align: center;
 }
+.nav-links {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #1c5d76;
+  font-weight: bold;
+  margin-right: 1rem;
+}
+.nav-links a.active,
+.nav-links a:hover {
+  border-bottom: 1px solid #1c5d76;
+}
